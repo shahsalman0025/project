@@ -1,0 +1,136 @@
+.Radio__main{
+    width: 100%;
+    height: 100vh;
+    background: #EFF5FB;
+    
+}
+.Radio__content{
+    display: flex;
+    justify-content: space-around;
+}
+.Radio__content> div{
+    margin-top: 5%;
+    background: #ffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    height: 80vh;
+}
+.Radio__mcqs {
+    width: 600px;
+    text-align: center;
+}
+.Radio__mcqs_div{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Radio__mcqs h5{
+    color: #4176A5;
+}
+.Radio__mcqs_div> .mcqs__col{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Radio__mcqs input{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+.left label input{
+    margin-top: 20px;
+    
+
+}
+.left label{
+    color: #86A7C5;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    /* display: flex;
+    align-items: center; */
+
+}
+.mcqs__col> label{
+    padding: 2vh;
+   text-align: left;
+   color: #86A7C5;
+}
+.mcqs__col input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+.Radio__QA{
+   width: 30%;
+}
+
+.mcqs__btn{
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+}
+.mcqs__btn>a{
+    color: #4176A5;
+}
+.question__col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Radio__question p{
+border-radius: 10px;
+background: #D4E5F4;
+color:var(--blue);
+padding: 10px 5px 10px 5px;
+}
+.Radio__question h5{
+    color: #4277A6;
+}
+.question__col> label{
+    background-color: #EBF3FA;
+    padding: 10px 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #7399BD;
+}
+.question__col label input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.question__btn button{
+    margin-top: 50px;
+    border: none;
+    background: none;
+ font-size: 20px;
+ display: flex;
+ justify-content: baseline;
+ text-align: right;
+ color: #4277A6;
+
+}
+.question__btn img{
+   
+    transform: rotate(180deg);
+}
+.Radio__mcqs>.left{
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 50px;
+}
+.imgsubmit{
+    margin-top: 30px ;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}

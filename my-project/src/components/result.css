@@ -1,0 +1,41 @@
+.result{
+    background: #EFF5FB;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.result-text{
+    margin-left: 100px;
+    margin-top: 100px;
+    
+
+}
+.result-text h5{
+    color: #4874AA;
+}
+.result-text h3{
+    color: #3F495C;
+}
+.result-text p{
+    margin-top: 15px;
+}
+.bills{
+    border-radius: 100px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: var(--blue);
+    color: #fff;
+    padding: 6px 15px;
+
+}
+.result-img{
+    margin-top: 50px;
+
+}
+.bg-blue {
+    background-color: var(--blue);
+    color: #fff;
+}

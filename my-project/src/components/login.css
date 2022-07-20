@@ -1,0 +1,138 @@
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.login-img {
+    width: 40%;
+    background: #9CBEE2;
+    height: 100%;
+}
+
+.logo{
+    /* margin-top: -46vh;
+    margin-left: -215vh; */
+
+}
+
+.imglog img{
+
+    margin-top: 20%;
+    width: 90%;
+}
+.text-area input{
+padding-left: 10px;
+width: 40%;
+height: 8vh;
+margin: 10px;
+border: none;
+border: 1px solid #BFBFBF;
+background-color: white;
+box-shadow: 10px 10px 5px #aaaaaa;
+border-radius: 10px;
+}
+.text-area input:focus{
+    border: none;
+
+    border-left:10px solid var(--blue);
+}
+.login-Form {
+    width: 80%;
+}
+.rightbtn{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    width: 70%;
+    margin: 10px;
+    color: black;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+    color: #fff;
+    border-radius: 100px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    opacity: .9;
+}
+.bg-blue:hover{
+    opacity: .8;
+    border: 1px solid black;
+}
+.bg-blue:focus{
+   opacity: 1;
+}
+.bg-blue a{
+    color:#fff ;
+    text-decoration: none;
+}
+.logBtn{
+    display: flex;
+    border: none;
+    background: none;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--blue);
+
+
+}
+.logBtn:hover{
+    cursor: pointer;
+    color: var(--skyblue);
+}
+.logBtn img{
+    margin-left: 20px;
+}
+
+.header {
+    margin-top: 10px;
+display: flex;
+justify-content: space-between;
+}
+.header span{
+    margin-right: 30px;
+}
+.text-area {
+    text-align: center;
+    margin-top: 10vh;
+}
+.text-area h3{
+    padding-bottom: 10px;
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    left: 38%;
+}
+.text-areas input{
+    padding-left: 10px;
+    width: 40%;
+    height: 8vh;
+    margin: 10px;
+    border: none;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 10px;
+    }
+    .text-areas input:focus{
+        border: none;
+        border-left:10px solid var(--blue);
+    }
+    .text-areas {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .error-msg{
+        color: #BFBFBF;
+        font-size: 18px;
+    }

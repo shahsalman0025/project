@@ -1,0 +1,111 @@
+.answer-button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+.Right_questions{
+    border-radius: 10px;
+    background: #D4E5F4;
+    color: var(--blue);
+    padding: 10px 5px 10px 5px;
+}
+.Right_questions-header{
+    color: #4277A6;
+}
+.correct-answer{
+    display: flex;
+    align-items: center;
+    background-color: #EBF3FA;
+    padding: 17px 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #7399BD;
+}
+.radio_options{
+    list-style: none;
+}
+.radio_options button:not(.correct){
+    display: flex;
+    align-items: center;
+    background-color: #EBF3FA;
+    padding: 15px 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #7399BD;
+}
+.radio_options button:hover{
+    opacity: .8;
+}
+.radio_options button:focus:not(.correct) {
+    background: rgb(224, 86, 86);
+    color: #EBF3FA;
+}
+.radio_button{
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 10px;
+    background: #fff;
+}
+.radio_button:hover{
+    background: grey;
+}
+.radio_button:focus-within{
+    background-color: blue;
+}
+.Right_questions-nextbtn{
+    margin-top: 50px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: baseline;
+    text-align: right;
+    color: #4277A6;
+    align-items: flex-start;
+}
+.Right_questions-nextbtn:hover{
+    text-decoration: underline;
+}
+.Right_questions-nextbtn>img{
+    transform: rotate(180deg);
+}
+.correct{
+    background: rgb(159, 221, 159);
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.correct:focus{
+    background: rgb(159, 221, 159);
+}
+.mcqs__btn{
+
+
+}
+.mcqs__btn button{
+    font-size: 20px;
+    color: var(--blue);
+    border-color: var(--blue);
+    border-radius: 10px;
+    margin: 10px;
+    width: 180px;
+   
+}
+.mcqs__btn button:hover{
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mcqs__btn img{
+    transform: rotate(180deg);
+
+}

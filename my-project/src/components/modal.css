@@ -1,0 +1,70 @@
+.modal_body *{
+    color: #fff;
+}
+.back-btn{
+    text-align: left;
+}
+.orbit__modal-content{
+    text-align: -webkit-center;
+}
+.modal_body{
+    width:  600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.modal-header{
+    width: 100%;
+}
+.modal-header button{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color:var(--blue);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.modal-header button:hover{
+    cursor: pointer;
+    background: var(--skyblue);
+}
+.heading{
+    background: var(--blue);
+    border-radius: 20px;
+}
+.round{
+    border-radius: 20px;
+    background: var(--blue);
+    margin-top: 10px;
+}
+.round h4{
+   color: #fff;
+}
+.sky{
+    background-color: var(--skyblue);
+}
+.bio{
+    background-color: #C5DFF2;
+
+}
+.bio h5{
+    color: #75A0C5;
+}
+.hema{
+    background: #A0BAD1;
+}
+.hema h5{
+    color: #576673;
+}
+.bio p,.hema p,.thy p{
+font-size: small;
+}
+.thy h5{
+    color: #84B4DB;
+
+}
+.thy{
+ background: #BAE2FF;
+}

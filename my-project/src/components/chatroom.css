@@ -1,0 +1,104 @@
+body{
+    height: 100%;
+}
+.chatroom{
+    display: flex;
+    background: #EFF5FB;
+
+    height: 100%;
+}
+.left{
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+
+}
+
+.right{
+
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+}
+
+.img{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.img img{
+    border-radius: 100px;
+    width: 120px;
+}
+.right button:not(.btn-logout){ 
+    width: 100%;
+    height: 7vh;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: medium;
+    color: var(--blue);
+    background: #90BFE2;
+}
+.bg-skyblue a{
+    color: var(--blue);
+
+}
+.right button:hover{
+    color: #fff;
+}
+.bg-skyblue a:hover{
+    color: #fff;
+}
+.med{
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.headerc{
+    background: #fff;
+    display: flex;
+    width: 80%;
+    border-radius: 0px 100px 100px 0px;
+}
+.logo1{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    
+}
+.logo1 img{
+    margin: 10px;
+    margin-left: 20px;
+    width: 150px;
+    height: 80px;
+}
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    align-items: center;
+}
+.text{
+    margin-left: 40px;
+    }
+.left button:not(.react-chatbot-kit-chat-btn-send){
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #fff;
+}
+.bg-blue{
+    background: var(--blue);
+
+}
+.bg-skyblue{
+    background: var(--skyblue);
+}
+
+

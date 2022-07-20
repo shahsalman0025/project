@@ -1,0 +1,21 @@
+
+.email_main {
+height: 100vh;
+background: #CCCCCC;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.redirect {
+width: 500px;
+
+}
+.redirect a{
+    color: black;
+    opacity: .9;
+    font-weight: 700;
+}
+.redirect a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}

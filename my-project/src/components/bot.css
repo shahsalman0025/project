@@ -1,0 +1,120 @@
+.react-chatbot-kit-chat-container {
+    width: 99%;
+    margin: 1% 1% 100px 1%;
+  
+}
+
+.react-chatbot-kit-chat-inner-container {
+  height: max-content;
+}
+
+.react-chatbot-kit-chat-header {
+}
+
+.react-chatbot-kit-chat-input-container {
+}
+
+.react-chatbot-kit-chat-message-container {
+    background: #EFF5FB;
+overflow: auto;
+}
+
+.react-chatbot-kit-chat-input {
+}
+
+.react-chatbot-kit-chat-input-form {
+    position: absolute;
+    margin-top: 20px;
+    background: var(--skyblue);
+    width: 80%;
+    border-radius: 40px;
+
+}
+.react-chatbot-kit-chat-input-form input{
+    border-top-left-radius:40px ;
+    border-bottom-left-radius:40px ;
+}
+
+
+.react-chatbot-kit-chat-input::placeholder {
+}
+
+.react-chatbot-kit-chat-btn-send {
+    background-color: #366FA1;
+    border-top-right-radius:40px ;
+    border-bottom-right-radius:40px ;
+
+}
+.react-chatbot-kit-chat-btn-send:hover{
+    opacity: .8;
+}
+
+.react-chatbot-kit-chat-btn-send-icon {
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+}
+
+.react-chatbot-kit-chat-bot-avatar-icon {
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+}
+
+.react-chatbot-kit-chat-bot-message {
+    margin-left: 0px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #C1CAD8;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+    display: none;
+}
+
+.react-chatbot-kit-chat-bot-loading-icon-container {
+}
+
+.chatbot-loader-container {
+}
+
+#chatbot-loader #chatbot-loader-dot1 {
+}
+
+#chatbot-loader #chatbot-loader-dot2 {
+}
+
+#chatbot-loader #chatbot-loader-dot3 {
+}
+
+.react-chatbot-kit-error {
+}
+
+.react-chatbot-kit-error-container {
+}
+
+.react-chatbot-kit-error-header {
+}
+
+.react-chatbot-kit-error-docs {
+}
+.react-chatbot-kit-user-chat-message {
+    background-color: #9ED0F5;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: medium;
+    position: relative;
+    text-align: left;
+}
+.react-chatbot-kit-user-chat-message-arrow{
+    display: none;
+}
+.react-chatbot-kit-chat-bot-message{
+    background-color: #C1CAD8;
+}
+

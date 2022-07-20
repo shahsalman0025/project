@@ -1,0 +1,94 @@
+
+.get_started{
+    display: flex;
+    height: 100vh;
+}
+.details *{
+color: #fff;
+}
+.details{
+    width: 30%;
+    text-align: center;
+    background-color: #85C0E6;
+    border-radius: 0px 10px 10px 0px;
+    height: 100vh;
+}
+.details h4{
+padding-top: 50px ;
+
+
+}.details h5{
+    padding-bottom: 20px;
+}
+.details input{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+}
+.scenario{
+    
+    width: 100%;
+    text-align: center;
+}
+.scenariobody
+{
+    height: 500px;
+    overflow: auto;
+}
+.scenario h3{
+   margin-top: 30px;
+   margin-bottom: 40px;
+    color: #85C0E6;
+}
+.scene{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.scene div{
+    background: var(--skyblue);
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.scene a{
+    background: #C7E2F4;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.scene_img{
+    width: 180px;
+    padding: 20px;
+
+}
+.scene_img img{
+    width: 50px;
+    border-radius: 30px;
+}
+.scene_img span{
+    color: #fff;
+}
+.scene_text{
+    padding: 2%;
+    width: 100%;
+    color: #739FC5;
+    text-decoration: none;
+    text-align: left;
+}
+.scene_text:hover{
+    color: #85C0E6;
+}
+.btn-logout{
+    color: #fff;
+    background: #4277A6;
+    margin: 100px 0px 50px 0px;
+    width: 50%;
+    height: 7vh;
+    border: none;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: medium;
+}

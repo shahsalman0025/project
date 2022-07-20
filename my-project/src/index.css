@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500&family=Lato&family=Lobster&family=Poppins:wght@300;400;500;600;700&display=swap');
+html{
+    height: 100%;
+}
+:root {
+    --blue: #00548F;
+    --white: #ffffff;
+    --offwhite: #00000029;
+    --skyblue:#9CBEE2;
+    --purple:#7A839E;
+    --brownish:#42495B;
+    --lightpur:#7E76F947;
+    --white1:#7E76F929;
+    --white2:#F6F7FB;
+    --white3:#0000001A;
+    --grey:#999999;
+    --sky2blue:#bad0e7;
+  }
+*{  
+    padding: 0;
+    margin: 0;
+    outline: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+.Font_Lato{
+    font-family: 'Lato', sans-serif;
+}
+.Font_Lobster{
+   
+    font-family: 'Lobster', cursive;
+}
+.font_Baloo{
+    font-family: 'Baloo Chettan 2', cursive;
+    
+}
+  
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 37px;
+}
+h4{
+    font-size: 29px;
+}
+h5{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+span{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+Link{
+    cursor: pointer;
+}

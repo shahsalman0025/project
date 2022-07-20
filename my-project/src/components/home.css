@@ -1,0 +1,184 @@
+
+.Home {
+    background: url("./images/Shape.png");
+    background-size: 800px 535px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+
+}
+
+.nav {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-logo {
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.home-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.home-nav ul li>a,.login-home-btn a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    
+}
+
+/* .list>li>a:not(.active) {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+
+} */
+
+
+.home-nav a:hover {
+    cursor: pointer;
+    color: var(--blue);
+    border-radius: 18px;
+    background: #87A8C7;
+}
+
+.login-home {
+    padding-right: 50px;
+}
+
+.home-nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-main {
+    display: flex;
+}
+
+.home-links {
+    height: 220px;
+    border: .1px solid black;
+    border-radius: 100px;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+  
+
+
+}
+
+.home-links img {
+    padding: 10px;
+}
+
+.home-text {
+    margin: 50px;
+
+}
+
+.home-text h3,
+.home-text h1,
+.home-text p {
+    margin: 0px;
+
+}
+
+.pill {
+    margin-top: 20px;
+    border-radius: 100px;
+    width: 250px;
+    height: 60px;
+    border: none;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.home-img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.home-center{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background:#fff;
+    margin-left: 600px;
+}
+.center-home{
+    display: flex;
+    justify-content: center;
+}
+.home-layer{
+    margin: 0px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.layer-img{
+    margin-left: 80px;
+}
+.layer-text{
+    margin-top: 30px;
+   margin-left: 120px;
+}
+.layer-text h1{
+    color: #374054;
+}
+.pills{
+    margin-top: 20px;
+    border-radius: 100px;
+    width: 160px;
+    height: 40px;
+    border: none;
+}
+.Font_Lobster{
+   color: #265A99;
+   
+}
+@media only screen and (max-width: 700px) {
+    .Home{
+        background: none;
+        text-align: center;
+    }
+    .home-logo{
+        background: white;
+        margin: 0px;
+    }
+    .nav{
+        padding: 0px;
+        background: var(--blue);
+    }
+ .home-img>img,
+    .layer-img>img,
+        .result-img>img{
+    width: 50%;
+    height: auto;
+ }
+    .home-main,.result {
+        flex-direction: column-reverse;
+    }
+    .home-layer {
+        flex-direction: column;
+    }
+    .home-center{
+        display: none;
+    }
+    .home-links{
+       display: none;
+        
+    }
+ 
+  }
